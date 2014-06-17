@@ -1,0 +1,23 @@
+
+
+.btn{
+	@extend .buttons-default;
+	@extend .transition;
+}
+
+ .btn--search{
+ 	color: $white;
+ 	padding:6px 30px;
+ 	background: #8A4ECD;
+ 	&:hover{
+ 		background: #7d3ac7;
+ 	}
+ }
+
+ .btn--save{
+ 	background: #63c97d;
+ 	text-shadow:$text-shadow-btn;
+ 	&:hover{
+ 		background: #40b95f;
+ 	}
+ }
